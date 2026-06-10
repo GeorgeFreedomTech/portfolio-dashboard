@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="cs" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Freedom | Profil</title>
+    <link rel="icon" type="image/png" href="../static/img/favicon.png">
+    <meta name="description" content="Operační portfolio a dashboard George Freedom. Programátor, lektor a produktový vývojář.">
+    
+    <link rel="stylesheet" href="../static/css/pico.min.css">  
+    <link rel="stylesheet" href="../static/css/custom.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION OVERLAY -->
+    <nav class="container">
+        <ul>
+            <li><strong>George Freedom</strong></li>
+        </ul>
+        <ul>
+            <li><a href="../index.html" class="secondary">EN</a></li>
+            <li><a href="#" class="secondary"><strong>CZ</strong></a></li>
+            <li><a href="../es/index.html" class="secondary">ES</a></li>
+            <li><a href="#" id="theme-toggle" class="secondary" aria-label="Toggle theme">🌙</a></li>
+        </ul>
+    </nav>
+
+    <!-- TWO COLUMN LAYOUT -->
+    <main class="container dashboard-grid">
+        
+        <!-- LEFT COLUMN: PROFILE & LINKS -->
+        <aside class="dashboard-sidebar">
+            <div class="sidebar-sticky">
+                <img class="profile_img" width="300px" src="../static/img/studio_profil.jpg" alt="George Freedom profilová fotka">
+                <h1>Profil</h1>
+                <div class="sidebar-profile-text">
+                    <p>Všechno je systém. Pokud to funguje a má to reálné výsledky, je to dobrý systém. Zlepšení systému je možné vždy.</p>
+                    <p>Moje zkušenosti sahají od programování v <strong>Pythonu</strong>, přes prototypování, přípravu dat a dashboardů po budování a launch globálních <strong>digitálních produktů</strong> a <strong>e-commerce projektů</strong>.</p>
+                    <p>Protože mám přehled o celém řetězeci — od stavby a vývoje <strong>webu</strong> (HTML/CSS) a web apps, integraci platebních bran, checkout, stavbu funkčních <strong>funnels & landing pages</strong> — orientuji se v kódu i v byznysové logice a vím, jak rozvinout nápad v soběstačný projekt.</p> 
+                    <p>Kromě toho se <strong>navrhuji a vedu tréninkové programy</strong> a IT kurzy pro státní správu, školy a IT akademie. Věřím, že dobře navržený systém vždy porazí čistou motivaci.</p> 
+                    <p>Jsem otevřený pro part-time a remote spolupráci.</p>
+                </div>
+                <p><small>📍 Aktuálně působím z Peru.</small></p>
+                
+                <hr>
+                
+                <!-- LINKTREE -->
+                <div class="linktree-container">
+                    <a href="https://georgefreedom.com/blog-articles" role="button" class="block-btn btn-brand btn-blog" target="_blank">Blog</a>
+                    <a href="https://github.com/GeorgeFreedomTech" role="button" class="block-btn btn-brand btn-github" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/georgefreedom/" role="button" class="block-btn btn-brand btn-linkedin" target="_blank">LinkedIn</a>
+                    <a href="https://cal.com/georgefreedom" role="button" class="block-btn btn-brand btn-cal" target="_blank">Úvodní hovor (15 min)</a>
+                    <a href="../static/docs/GeorgeFreedom_CV.pdf" role="button" class="secondary outline block-btn" download>Stáhnout CV (PDF)</a>
+                </div>
+            </div>
+        </aside>
+
+        <!-- RIGHT COLUMN: PROJECT LIST -->
+        <section class="dashboard-content">
+            
+            <h2 class="section-title">I. Software, data a systémová logika</h2>
+            
+            <article class="dashboard-card">
+                <header>
+                    <h3>Silent Scout</h3>
+                </header>
+                <p>Osobní WiFi skener na mikrokontroleru ESP32, naprogramovaný v MicroPython. Sběr a zpracování dat o lokálních sítích s pomocí Pandas, data jsou následně vizualizována ve Streamlit app. Dashboard ukazuje jednotlivé lokality, sílu a zabezpeční zjištěných sítí a jejich identifikaci. Důraz je kladen na bezpečnost a terénní "low-profile" přístup.</p>
+                <footer>
+                    <a href="https://github.com/GeorgeFreedomTech/Silent-Scout" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód</a>
+                    <a href="https://silent-scout.streamlit.app/" target="_blank" role="button" class="outline primary small-btn">Live app</a>
+                </footer>
+            </article>
+
+            <article class="dashboard-card">
+                <header>
+                    <h3>Peru Regional Telemetry</h3>
+                </header>
+                <p>Interaktivní webová aplikace, která se připojuje k externímu REST API a monitoruje atmosférická data v 7 regionech Peru. Slouží jako praktická ukázka kompletní ETL pipeline s využitím Pandas pro čištění dat a Matplotlib + Streamlit pro dynamickou vizualizaci.</p>
+                <footer>
+                    <a href="https://github.com/GeorgeFreedomTech/Peru-Regional-Telemetry" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód</a>
+                    <a href="https://peru-regional-telemetry.streamlit.app/?embed=true" target="_blank" role="button" class="outline primary small-btn">Live app</a>
+                </footer>
+            </article>
+
+            <article class="dashboard-card">
+                <header>
+                    <h3>Deep Reader</h3>
+                </header>
+                <p>Jednoduchý Python skript (méně než 50 řádků kódu), vytvořený jako osobní nástroj pro soustředěné hluboké čtení. Vezme URL zadaného článku, očistí jej od reklam, cookie lišt a invazivních trackerů a doručí čistý text ve formátu Markdown.</p>
+                <footer>
+                    <a href="https://github.com/GeorgeFreedomTech/Deep-Reader" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód</a>
+                    <a href="https://deep-reader.streamlit.app/" target="_blank" role="button" class="outline primary small-btn">Live app</a>
+                </footer>
+            </article>
+
+            <article class="dashboard-card">
+                <header>
+                    <h3>Cyber EDC</h3>
+                </header>
+                <p>Vytvoření odolného, přenosného Cyber-EDC (osobní USB disk). Disk má 2 módy fungování - aktivní operační jednotka s vybranými digitálními nástroji a šifrovanou zálohou osobních dat a pasivní režim s možností zavedení operačních systémů (Tails, Kali) na daný počítač. Využívá Ventoy pro bootování OS.</p>
+                <footer>
+                    <a href="https://georgefreedom.com/the-digital-survival-drive-building-an-autonomous-cyber-edc/" target="_blank" role="button" class="outline primary small-btn">Technický článek</a>
+                </footer>
+            </article>
+
+            <h2 class="section-title" style="margin-top: 3rem;">II. Nasazení webů a digitální produkty</h2>
+            
+            <article class="dashboard-card">
+                <header>
+                    <h3>The Partner Pact</h3>
+                </header>
+                <p>Plně automatizovaný globální digitální produkt. Taktická komunikační karetní hra pro páry - ke stažení a následnému tisku. Vytvořeno jako challenge během 4denního sprintu. Projekt zahrnoval rychlé prototypování, produktový design v HTML/CSS, stavbu webu (landing page) s vícejazyčnou lokalizací a integraci zabezpečené platební brány.</p>
+                <footer>
+                    <a href="https://georgefreedom.com/protocol-for-two-building-a-tactical-relationship-system-in-a-4-day-sprint/" target="_blank" role="button" class="outline secondary small-btn">Případová studie</a>
+                    <a href="https://thepartnerpact.com" target="_blank" role="button" class="outline primary small-btn">Web page</a>
+                </footer>
+            </article>
+
+            <article class="dashboard-card">
+                <header>
+                    <h3>Andes Resilience Web</h3>
+                </header>
+                <p>Landing page pro program fyzického tréninku a nabídku služeb. Důraz na čistý mobile-first přístup. Postaveno na zero-backend architektuře (statická web page) s využitím HTML5 a Pico CSS. Nabízí integrovanou podporu pro dva jazyky. Extrémně rychlé načítání a optimalizovaný konverzní funnel.</p>
+                <footer>
+                    <a href="https://andesresilience.com" target="_blank" role="button" class="outline primary small-btn">Web page</a>
+                </footer>
+            </article>
+
+            <article class="dashboard-card">
+                <header>
+                    <h3>NOOMAD Masterclass</h3>
+                </header>
+                <p>Live online workshop zaměřený na transformaci nápadů v automatizované digitální produkty s využitím bezplatných, low-code a no-code nástrojů a AI. Je využita případové studie reálného produktu. Workshop je zaměřen na přístup k tvorbě produktového designu, integraci a využití open-source nástrojů a automatizaci prodejů.</p>
+                <footer>
+                    <a href="https://georgefreedom.com/noomad/" target="_blank" role="button" class="outline primary small-btn">Web page</a>
+                </footer>
+            </article>
+
+            <h2 class="section-title" style="margin-top: 3rem;">III. Open-Source IT kurzy a výukové programy</h2>
+            
+            <article class="dashboard-card">
+                <header>
+                    <h3>Python Programming Series</h3>
+                </header>
+                <p>Komplexní, víceúrovňový výukový program programování v Pythonu. Materiály zahrnují vše od práce s proměnnými, podmínky, cykly, programovací logiku, přes pokročilejší aspekty (automatické skripty, API, práce se soubory) až po objektově orientované programování (OOP).</p>
+                <footer>
+                    <a href="https://github.com/GeorgeFreedomTech/Python-Foundations-Course" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód - Foundations</a>
+                    <a href="https://github.com/GeorgeFreedomTech/Python-Intermediate-Course" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód - Intermediate</a>
+                    <a href="https://github.com/GeorgeFreedomTech/Python-Advanced-Course" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód - Advanced</a>
+                </footer>
+            </article>
+
+            <article class="dashboard-card">
+                <header>
+                    <h3>Flask Mission Control</h3>
+                </header>
+                <p>Program zaměřený na architekturu a tvorbu webových aplikací (Flask). Příprava a nastavení prostředí, generování HTML a využívání Jinja2, WTF formuláře, nastavení databáze (SQLAlchemy), stavbu REST API, architekturu aplikace a její finální nasazení.</p>
+                <footer>
+                    <a href="https://github.com/GeorgeFreedomTech/Flask-Apps-Architecture-Course" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód</a>
+                </footer>
+            </article>
+
+            <article class="dashboard-card">
+                <header>
+                    <h3>Streamlit Data Control</h3>
+                </header>
+                <p>Praktický tréninkový program zaměřený na budování interaktivních webových aplikací s důrazem na vizualizaci dat. Zpracování a očištění surových dat, práce s poli (arrays), vizualizace a stavba dashboardů s využitím základního Python data stacku: NumPy, Pandas a Matplotlib.</p>
+                <footer>
+                    <a href="https://github.com/GeorgeFreedomTech/Streamlit-Data-Analysis-and-Visualization-Course" target="_blank" role="button" class="outline secondary small-btn">GitHub Kód</a>
+                </footer>
+            </article>
+
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="dashboard-footer">
+        <small>&copy; 2026 George Freedom. Dashboard layout.</small>
+    </footer>
+
+    <!-- THEME TOGGLE SCRIPT -->
+    <script>
+        const toggleBtn = document.getElementById('theme-toggle');
+        const html = document.documentElement;
+        const savedTheme = localStorage.getItem('theme') || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+        html.setAttribute('data-theme', savedTheme);
+        updateToggleIcon(savedTheme);
+
+        toggleBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            const currentTheme = html.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', newTheme);
+            localStorage.setItem('theme', newTheme);
+            updateToggleIcon(newTheme);
+        });
+
+        function updateToggleIcon(theme) {
+            toggleBtn.innerHTML = theme === 'dark' ? '☀️' : '🌙';
+        }
+    </script>
+</body>
+</html>

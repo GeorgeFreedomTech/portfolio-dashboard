@@ -1,0 +1,108 @@
+/* Dashboard */
+@media (min-width: 992px) {
+    .dashboard-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 3rem;
+        align-items: start;
+    }
+    .sidebar-sticky {
+        position: sticky;
+        top: 2rem;
+    }
+}
+
+.dashboard-sidebar h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+}
+.block-btn {
+    width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+.dashboard-card {
+    margin-bottom: 1.5rem !important;
+    padding: 1.5rem !important;
+}
+.dashboard-card header {
+    margin-bottom: 0.75rem !important;
+    padding: 0 !important;
+    background: transparent !important;
+    border-bottom: none !important;
+}
+.dashboard-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+.dashboard-card p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+.dashboard-card footer {
+    background: transparent !important;
+    border-top: none !important;
+    padding: 0 !important;
+    display: flex;
+    gap: 0.5rem;
+}
+.small-btn {
+    padding: 0.3rem 0.75rem !important;
+    font-size: 0.85rem !important;
+    margin-bottom: 0 !important;
+}
+.section-title {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: var(--primary);
+}
+
+/* Profile pic formatting */
+.profile_img {
+    margin-bottom: 30px
+}
+
+/* Sidebar Profile Text Formatting */
+.sidebar-profile-text p {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+}
+
+/* Linktree Container */
+.linktree-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 30px
+}
+
+/* Specific Brand Identity Button Colors (Option B) */
+.btn-brand {
+    color: #ffffff !important;
+    border: none !important;
+    font-weight: bold;
+}
+.btn-brand:hover {
+    filter: brightness(90%);
+}
+.btn-blog {
+    background-color: #ee784a !important; /* Burnt Copper */
+}
+.btn-github {
+    background-color: #24292e !important; /* GitHub Dark Charcoal */
+}
+.btn-linkedin {
+    background-color: #0077b5 !important; /* LinkedIn Blue */
+}
+.btn-cal {
+    background-color: #7f8181 !important; /* Cal.com Slate */
+}
+
+/* Dashboard Footer */
+.dashboard-footer {
+    padding: 2rem 0;
+    border-top: 1px solid var(--muted-border-color);
+    text-align: center;
+    display: block;
+    width: 100%;
+}
