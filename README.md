@@ -1,6 +1,6 @@
 # Operational Portfolio Dashboard
 
-A minimalist, high-performance, and multi-language operational portfolio dashboard for **George Freedom** (Programmer, educator, and product builder). 
+A minimalist, high-performance, and multi-language operational portfolio dashboard of **George Freedom** (Educator • Technical Trainer • Practical Problem Solver). 
 
 Built with a focus on **systems thinking and digital resilience** — zero-backend architecture, zero trackers, ultra-fast load times, and maximum structural transparency. Engineered to display active software projects, automated digital products, and open-source IT training curricula.
 
